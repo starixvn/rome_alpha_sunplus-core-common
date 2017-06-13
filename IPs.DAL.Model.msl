@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="IPDBModelStoreContainer" CdmEntityContainer="IPEntities">
+    <EntitySetMapping Name="IPTable">
+      <EntityTypeMapping TypeName="IsTypeOf(IPDBModel.IPTable)">
+        <MappingFragment StoreEntitySet="IPTable">
+          <ScalarProperty Name="ipCity" ColumnName="ipCity" />
+          <ScalarProperty Name="IsException" ColumnName="IsException" />
+          <ScalarProperty Name="IsModified" ColumnName="IsModified" />
+          <ScalarProperty Name="ipRegion" ColumnName="ipRegion" />
+          <ScalarProperty Name="IPKeyFrom" ColumnName="ipKeyFrom" />
+          <ScalarProperty Name="IpKeyTo" ColumnName="ipKeyTo" />
+          <ScalarProperty Name="IPFrom" ColumnName="ipFrom" />
+          <ScalarProperty Name="IPTo" ColumnName="ipTo" />
+          <ScalarProperty Name="CountryShort" ColumnName="countrySHORT" />
+          <ScalarProperty Name="CountryLong" ColumnName="countryLONG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IPVN">
+      <EntityTypeMapping TypeName="IsTypeOf(IPDBModel.IPVN)">
+        <MappingFragment StoreEntitySet="IPVN">
+          <ScalarProperty Name="IsManual" ColumnName="isManual" />
+          <ScalarProperty Name="IPTo" ColumnName="IPTo" />
+          <ScalarProperty Name="IPFrom" ColumnName="IPFrom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetIPInfo_Full" FunctionName="IPDBModel.Store.Acc_GetIPInfo_Full" />
+    <EntitySetMapping Name="dtproperties">
+      <EntityTypeMapping TypeName="IPDBModel.dtproperty">
+        <MappingFragment StoreEntitySet="dtproperties">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="lvalue" ColumnName="lvalue" />
+          <ScalarProperty Name="uvalue" ColumnName="uvalue" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="property" ColumnName="property" />
+          <ScalarProperty Name="objectid" ColumnName="objectid" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IPOffices">
+      <EntityTypeMapping TypeName="IPDBModel.IPOffice">
+        <MappingFragment StoreEntitySet="IPOffice">
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
