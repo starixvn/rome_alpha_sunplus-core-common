@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 
-[assembly: AssemblyVersion("1.2.0.1")]
+[assembly: AssemblyVersion("1.2.0.2")]
 [assembly: EdmSchema]
 [assembly: AssemblyCompany("Nexcel")]
 [assembly: AssemblyConfiguration("")]
@@ -18,5 +18,5 @@ using System.Runtime.Versioning;
 [assembly: RuntimeCompatibility(WrapNonExceptionThrows = true)]
 [assembly: ComVisible(false)]
 [assembly: Guid("a96437d1-6146-4362-9b84-f4f661eec85c")]
-[assembly: AssemblyFileVersion("1.2.0.1")]
+[assembly: AssemblyFileVersion("1.2.0.2")]
 

@@ -34,7 +34,7 @@ namespace Sunplus.Core.Common.IPs
 
 		public static List<IPVN> GetAllVnIps()
 		{
-            var cache = new CacheServiceImpl();
+            var cache = new CacheService();
 
             var vietnamIPs = cache.GetOrSet(
                 VNIPListCacheKey,
